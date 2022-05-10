@@ -1,0 +1,8 @@
+{
+  "name": "tini-issues",
+  "version": "0.1.0",
+  "tiki": {
+    "appIdentifier": "vn.tiki.tiniissues",
+    "buildNumber": 1
+  }
+}
