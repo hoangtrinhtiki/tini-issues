@@ -1,5 +1,7 @@
 
-<custom-component />
-<custom-component />
-<custom-component />
-<custom-component />
+<block tiki:if="{{show}}">
+  <custom-component />
+  <custom-component />
+  <custom-component />
+  <custom-component />
+</block>
