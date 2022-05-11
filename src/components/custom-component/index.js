@@ -4,7 +4,7 @@ Component({
 
     console.log('Internal prop with primitive type does not share its value:', this.primitiveNumber++);
     console.log('Internal prop with reference type which is initialized in "onInit" does not share its ref', this.notSharedRefArr.push(1));
-    console.log('But the one which is initialized inside "methods" is sharing ref between components', this.sharedRefArr.push(counter++));
+    console.log('But the one which is initialized inside "methods" is sharing ref between components', this.sharedRefArr.push(1));
   },
   didUnmount() {
     console.log('-------------------------when unmount-------------------------')
