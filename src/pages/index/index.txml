@@ -1,5 +1,21 @@
 
-<custom-component />
-<custom-component />
-<custom-component />
-<custom-component />
+<view>
+  <text class="big-text">big text</text>
+  <text class="big-text">big text</text>
+  <text class="big-text">big text</text>
+  <text class="big-text">big text</text>
+  <text class="big-text">big text</text>
+  <text class="big-text">big text</text>
+  <text class="big-text">big text</text>
+  <text class="big-text">big text</text>
+  <text class="big-text">big text</text>
+  <text class="big-text">big text</text>
+  <text class="big-text">big text</text>
+  <text class="big-text">big text</text>
+  <text class="big-text">big text</text>
+  <text class="big-text">big text</text>
+</view>
+
+<view class="sticky-container">
+  <button>not sticky in studio 1.27.1, 1.25 works</button>
+</view>

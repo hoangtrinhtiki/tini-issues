@@ -1,5 +1,3 @@
 {
-  "usingComponents": {
-    "custom-component": "/components/custom-component/index"
-  }
+  "usingComponents": {}
 }
