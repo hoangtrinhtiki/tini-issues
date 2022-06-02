@@ -1,12 +1,8 @@
 Page({
-  onLoad(query) {
+  scrollToRed() {
+    my.pageScrollTo({ selector: ".red", duration: 300 });
   },
-  onReady() {
+  scrollToTop() {
+    my.pageScrollTo({ scrollTop: 0, duration: 300 });
   },
-  onShow() {
-  },
-  onHide() {
-  },
-  onUnload() {
-  }
 });

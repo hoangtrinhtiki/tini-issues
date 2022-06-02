@@ -1,5 +1,29 @@
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext red">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
+<text class="bigtext">big text</text>
 
-<custom-component />
-<custom-component />
-<custom-component />
-<custom-component />
+<view class="sticky">
+  <button onTap="scrollToRed">scroll to red</button>
+  <button onTap="scrollToTop">scroll to top</button>
+</view>

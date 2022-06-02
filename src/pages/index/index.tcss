@@ -1,1 +1,22 @@
-view { }
+view {
+}
+
+.bigtext {
+  font-size: 40px;
+  display: block;
+}
+
+.red {
+  color: red;
+}
+
+.green{
+  color: green;
+}
+
+.sticky {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
