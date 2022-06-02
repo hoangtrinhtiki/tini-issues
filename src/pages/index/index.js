@@ -1,8 +1,14 @@
 Page({
-  scrollToRed() {
-    my.pageScrollTo({ selector: ".red", duration: 300 });
+  data: {
+    showCustom: false,
   },
-  scrollToTop() {
-    my.pageScrollTo({ scrollTop: 0, duration: 300 });
+  saveRef(ref) {
+    this.ref = ref;
+  },
+  showTextInCustom() {
+    this.ref.setValue("text is shown!!");
+  },
+  showCustom() {
+    this.setData({ showCustom: true });
   },
 });

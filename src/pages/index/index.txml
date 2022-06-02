@@ -1,29 +1,7 @@
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext red">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
-<text class="bigtext">big text</text>
+<block tiki:if="{{showCustom}}">
+  <custom-component ref="saveRef"/>
+  <button onTap="showTextInCustom">show text in Custom</button>
+</block>
 
-<view class="sticky">
-  <button onTap="scrollToRed">scroll to red</button>
-  <button onTap="scrollToTop">scroll to top</button>
-</view>
+
+<button onTap="showCustom">show custom</button>

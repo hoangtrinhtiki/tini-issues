@@ -1,10 +1,10 @@
 Component({
-  onInit() {
-    console.log('Primitive type:', this.counter++);
-    console.log('Array is sharing ref between components', this.arrCounter.push(1));
+  ref() {
+    return { setValue: this.setValue.bind(this) };
   },
   methods: {
-    counter: 1,
-    arrCounter: [],
-  }
+    setValue(value) {
+      this.setData({ value });
+    },
+  },
 });

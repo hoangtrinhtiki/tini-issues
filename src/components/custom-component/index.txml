@@ -1,1 +1,1 @@
-custom-component rendered!
+<text>{{value}}</text>
