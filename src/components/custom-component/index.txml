@@ -1,1 +1,2 @@
-custom-component rendered!
+custom-component rendered aaaa!
+<button onTap="triggerError">as222dasd</button>

@@ -1,10 +1,13 @@
 Component({
   onInit() {
-    console.log('Primitive type:', this.counter++);
-    console.log('Array is sharing ref between components', this.arrCounter.push(1));
+    this.triggerError();
+  },
+  onError(error) {
+    console.log(error);
   },
   methods: {
-    counter: 1,
-    arrCounter: [],
+    triggerError() {
+      throw Error('hahaha')
+    }
   }
 });
