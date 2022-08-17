@@ -1,2 +1,1 @@
-custom-component rendered aaaa!
-<button onTap="triggerError">as222dasd</button>
+<custom-component-2 onSomething="callMe"/>

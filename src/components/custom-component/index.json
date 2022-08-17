@@ -1,3 +1,6 @@
 {
-  "component": true
+  "component": true,
+  "usingComponents": {
+    "custom-component-2": "components/custom-component-2/index"
+  }
 }
